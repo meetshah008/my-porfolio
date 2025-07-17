@@ -338,12 +338,17 @@ footer p{
     font-size: 1.5rem;
      color: #7e7b7b;
 }
+.hamburger{
+  opacity: 0;
+}
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
     align-items: center;
   }
-
+   #hero{
+margin-top: -30px;
+   }
   nav ul {
     flex-direction: column;
     align-items: center;
@@ -354,6 +359,7 @@ footer p{
   display: none;
   font-size: 3rem;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 /* Show hamburger & collapse menu on mobile */
@@ -384,6 +390,7 @@ footer p{
 
   .logo h1 {
     font-size: 2.5rem;
+    margin-bottom: 20px;
   }
 
   .hero_content h1 {
